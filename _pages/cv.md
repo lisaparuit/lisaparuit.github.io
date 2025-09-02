@@ -24,16 +24,24 @@ Work experience
 * May-July 2024 (3 months): Research Assistant
   * University of Barcelona (UB), Barcelona (Spain)
   * Duties included: Literature review, paper design and data analysis for a meta-analysis on sustainable cocoa
-production worldwide. More details in my <div class="file-download-links">
-  <a href="{{https://github.com/lisaparuit/lisaparuit.github.io/blob/master}}/files/Rapport_stage_2A.pdf" class="btn btn--primary">internship report</a>
-</div>.
-  * Supervisor: Professor Hub
+production worldwide. More details in my internship report below:
+
+{% include pdf-preview.html
+   file="files/Rapport_stage_2A.pdf"
+   title="Rapport de stage 2A (2024)"
+   caption="Université de Barcelone — Méta-analyse sur le cacao durable."
+   image="files/aperçu_rapport.png"
+   alt="Miniature du rapport de stage"
+   height="520px" %}
+   
+  * Supervisor: Laura Armengot Martinez
 
 * April-May 2024 (1 month): Research Assistant 
   * Bona Planta inc., Barcelona (Spain)
-  * Duties included: Literature research and design of an analytic framework for improving plant microbiome data management in GWAS. More details in my <div class="file-download-links">
-  <a href="{{https://github.com/lisaparuit/lisaparuit.github.io/blob/master}}/files/BonaPlantaReport.pdf" class="btn btn--primary">internship report</a>
-</div>.
+  * Duties included: Literature research and design of an analytic framework for improving plant microbiome data management in GWAS. More details in my internship report below:
+    
+{% include pdf-preview.html file="files/BonaPlantaReport.pdf" %}
+   
   * Supervisor: Pierre Hohmann
   
 Skills
