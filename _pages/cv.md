@@ -7,13 +7,11 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* MSc in Applied Mathematics for Life Sciences, Ecole Polytechnique (Palaiseau), 2024-2025
+* *Diplôme d'ingénieur* in agricultural sciences, AgroParisTech (Palaiseau), 2022-2025
+* Classe préparatoire aux Grandes Ecoles (BCPST), Lycée Fénelon (Paris VI), 2020-2022
 
 Work experience
 ======
