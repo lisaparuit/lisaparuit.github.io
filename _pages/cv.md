@@ -19,7 +19,9 @@ Work experience
 * April-August 2025 (5 months): Research Collaborator
   * IEES, Paris (France)
   * Duties includes: Mathematical derivation and analysis of an evolutionary model aiming to link the evolution of specialization to spatial heterogeneity in an egricultural context. More details in my internship report below:
-{% include pdf-preview.html file="files/main.pdf" %
+  
+{% include pdf-preview.html file="files/main.pdf" %}
+
   * Supervisor: Madeleine Kubasch, Nicolas Loeuille
 
 * May-July 2024 (3 months): Research Assistant
@@ -27,7 +29,7 @@ Work experience
   * Duties included: Literature review, paper design and data analysis for a meta-analysis on sustainable cocoa
 production worldwide. More details in my internship report below:
 
-{% include pdf-preview.html file="files/Rapport_Stage_2A.pdf" %
+{% include pdf-preview.html file="files/Rapport_Stage_2A.pdf" %}
    
   * Supervisor: Laura Armengot Martinez
 
