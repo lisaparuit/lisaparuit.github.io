@@ -1,0 +1,53 @@
+{%- comment -%}
+Include: pdf-preview.html
+Usage minimal :
+  {% include pdf-preview.html file="files/Rapport_stage_2A.pdf" %}
+
+Options :
+  file      : chemin du PDF (obligatoire)
+  title     : titre court affiché sous l’aperçu (optionnel)
+  caption   : légende/description sous l’aperçu (optionnel)
+  width     : largeur (défaut: 100%)
+  height    : hauteur (défaut: 600px)
+  image     : image de fallback (miniature) cliquable vers le PDF (optionnel)
+  alt       : texte alternatif pour l’image de fallback (défaut: "Aperçu du PDF")
+  download  : "true" pour afficher un bouton Télécharger (défaut: "true")
+  open_new  : "true" pour "Ouvrir dans un nouvel onglet" (défaut: "true")
+{%- endcomment -%}
+
+{%- if include.file -%}
+  <figure class="pdf-preview" style="margin:1rem 0;">
+    <object
+      data="{{ include.file | relative_url }}"
+      type="application/pdf"
+      width="{{ include.width | default: '100%' }}"
+      height="{{ include.height | default: '600px' }}"
+      aria-label="{{ include.title | default: 'Aperçu PDF' }}">
+      <p>
+        Votre navigateur ne peut pas afficher ce PDF intégré.
+        {%- if include.image -%}
+          <a href="{{ include.file | relative_url }}" {%- if include.open_new != 'false' -%} target="_blank" rel="noopener"{%- endif -%}>
+            <img src="{{ include.image | relative_url }}" alt="{{ include.alt | default: 'Aperçu du PDF' }}" style="max-width:100%;height:auto;">
+          </a>
+        {%- endif -%}
+        <br>
+        <a href="{{ include.file | relative_url }}" {%- if include.open_new != 'false' -%} target="_blank" rel="noopener"{%- endif -%}>Ouvrir le PDF</a>
+        {%- if include.download != 'false' -%}
+          &nbsp;|&nbsp;
+          <a href="{{ include.file | relative_url }}" download>Télécharger</a>
+        {%- endif -%}
+      </p>
+    </object>
+
+    {%- if include.title or include.caption -%}
+      <figcaption style="font-size:0.95rem;color:#555;margin-top:0.5rem;">
+        {%- if include.title -%}<strong>{{ include.title }}</strong>{%- endif -%}
+        {%- if include.title and include.caption -%}&nbsp;—&nbsp;{%- endif -%}
+        {%- if include.caption -%}{{ include.caption }}{%- endif -%}
+      </figcaption>
+    {%- endif -%}
+  </figure>
+{%- else -%}
+  <!-- pdf-preview.html : paramètre 'file' manquant -->
+  <p style="color:#b00020;">Erreur : l’include <code>pdf-preview.html</code> nécessite <code>file</code>.</p>
+{%- endif -%}
