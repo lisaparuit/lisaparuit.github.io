@@ -21,16 +21,20 @@ Work experience
   * Duties includes: Updates and improvements to template
   * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
+* May-July 2024 (3 months): Research Assistant
+  * University of Barcelona (UB), Barcelona (Spain)
+  * Duties included: Literature review, paper design and data analysis for a meta-analysis on sustainable cocoa
+production worldwide. More details in my <div class="file-download-links">
+  <a href="{{https://github.com/lisaparuit/lisaparuit.github.io/blob/master}}/files/Rapport_stage_2A.pdf" class="btn btn--primary">internship report</a>
+</div>.
   * Supervisor: Professor Hub
 
-* April-May 2024 (1.5 months): Research Assistant 
+* April-May 2024 (1 month): Research Assistant 
   * Bona Planta inc., Barcelona (Spain)
-  * Duties included: Literature research and design of an analytic framework for improving plant microbiome data
-treatment in GWAS. More details in my <ul>{% for post in site.publications reversed %}{% include archive-single-cv.html %}{% endfor %}</ul>
-  * Supervisor: Professor Git
+  * Duties included: Literature research and design of an analytic framework for improving plant microbiome data management in GWAS. More details in my <div class="file-download-links">
+  <a href="{{https://github.com/lisaparuit/lisaparuit.github.io/blob/master}}/files/BonaPlantaReport.pdf" class="btn btn--primary">internship report</a>
+</div>.
+  * Supervisor: Pierre Hohmann
   
 Skills
 ======
