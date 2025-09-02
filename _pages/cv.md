@@ -16,23 +16,18 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* April-August 2025 (5 months): Research Collaborator
+  * IEES, Paris (France)
+  * Duties includes: Mathematical derivation and analysis of an evolutionary model aiming to link the evolution of specialization to spatial heterogeneity in an egricultural context. More details in my internship report below:
+{% include pdf-preview.html file="files/main.pdf" %
+  * Supervisor: Madeleine Kubasch, Nicolas Loeuille
 
 * May-July 2024 (3 months): Research Assistant
   * University of Barcelona (UB), Barcelona (Spain)
   * Duties included: Literature review, paper design and data analysis for a meta-analysis on sustainable cocoa
 production worldwide. More details in my internship report below:
 
-{% include pdf-preview.html
-   file="files/Rapport_stage_2A.pdf"
-   title="Rapport de stage 2A (2024)"
-   caption="Université de Barcelone — Méta-analyse sur le cacao durable."
-   image="files/aperçu_rapport.png"
-   alt="Miniature du rapport de stage"
-   height="520px" %}
+{% include pdf-preview.html file="files/Rapport_Stage_2A.pdf" %
    
   * Supervisor: Laura Armengot Martinez
 
