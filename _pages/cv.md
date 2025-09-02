@@ -9,8 +9,9 @@ redirect_from:
 
 Education
 ======
-* MSc in Applied Mathematics for Life Sciences, Ecole Polytechnique (Palaiseau), 2024-2025
-* *Diplôme d'ingénieur* in agricultural sciences, AgroParisTech (Palaiseau), 2022-2025
+* [MRes in Computational Methods for Ecology and Evolution](https://www.imperial.ac.uk/study/courses/postgraduate-taught/computational-methods-ecology-evolution-mres/), Imperial College London (Ascot), 2025-2026 (pending)
+* [MSc in Applied Mathematics for Life Sciences](https://sites.google.com/view/m2-msv/accueil), Ecole Polytechnique (Palaiseau), 2024-2025
+* [*Diplôme d'ingénieur* in agricultural sciences](https://www.agroparistech.fr/en/education/agroparistech-educational-programs), AgroParisTech (Palaiseau), 2022-2025
 * Classe préparatoire aux Grandes Ecoles (BCPST), Lycée Fénelon (Paris VI), 2020-2022
 
 Work experience
@@ -25,9 +26,10 @@ Work experience
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
+* April-May 2024 (1.5 months): Research Assistant 
+  * Bona Planta inc., Barcelona (Spain)
+  * Duties included: Literature research and design of an analytic framework for improving plant microbiome data
+treatment in GWAS. More details in my <ul>{% for post in site.publications reversed %}{% include archive-single-cv.html %}{% endfor %}</ul>
   * Supervisor: Professor Git
   
 Skills
